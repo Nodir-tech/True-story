@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-info mb-5  fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand text-white" href=""><b>TRUE STORY </b> <img style="height: 50px;"
+                        src="/images/x.png" alt=""></a>
+            </div>
+        </div>
+        <div class="navbar">
+            <button class="btn btn-secondary btn-sm">
+                <a class="nav-link text-white" href="/main_profile.html"><b>Log in</b></a>
+            </button>
+            
+        </div>
+
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="/images/Villager_info.png" alt="">
+            </div>
+            <div class="col-sm-6 bg-light mt-5">
+                <form action="">
+                    <h1 class="text-info text-center">Registration</h1>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="First name" id="fname" name="fname"
+                            required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Second name" id="sname" name="sname"
+                            required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your Email" id="mail" name="email"
+                            required>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="tel" class="form-control" id="phone" name="phone"
+                            placeholder="Phone example (93-128-05-16)" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check_gender">
+                            <input type="radio" class="form-check-input" id="check_gender" name="gender" value="male"
+                                checked>Male
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="check_gender">
+                            <input type="radio" class="form-check-input" id="check_gender" name="gender" value="female"
+                                checked>Female
+                        </label>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" id="pwd1" name="password1"
+                            placeholder="Enter password">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" id="pwd2" name="password2"
+                            placeholder="Confirm password">
+                        <!-- </div>
+                    <button type="button" value="Submit" class="btn btn-info btn-block mb-3">SEND</button>
+                  </div> -->
+                        <!--Bu buttoni shunchakiy vaqtinchalik yozib qo`yganman asosiy buttonni commentga olganman-->
+                    </div>
+                    <button type="button" value="" class="btn btn-info btn-block mb-3"><a class="nav-link text-white"
+                            href="/main_profile.html">SEND</a></button>
+            </div>
+
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="jumbotron bg-info text-center text-white">
+        <h5>
+            © 2021 Napa Team. All rights reserved.</h3>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
